@@ -3,9 +3,9 @@ import Medicament from './components/Medicament.vue'
 </script>
 
 <template>
-  <header>
-   <Medicament/>
-  </header>
+  <main>
+    <Medicament/>
+  </main>
 </template>
 
 <style scoped>
