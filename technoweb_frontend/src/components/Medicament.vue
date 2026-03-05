@@ -88,7 +88,7 @@ onMounted(() => {
                         :src="medicament.imageURL"
                         :alt="'Image de ' + medicament.nom"
                         class="card-img"
-                        @error="$event.target.src='https://placehold.co/80x80/2a2a2a/b0b0b0?text=💊'"
+                        @error="$event.target.src='https://placehold.co/80x80/2a2a2a/b0b0b0?text=image'"
                     />
                 </div>
                 <div class="card-categorie">
